@@ -69,6 +69,8 @@ alias ls='pwd && lsd -A --group-directories-first'
 alias mi='micro'
 # tldr listfinder & preview alias
 alias tldrf='tldr --list | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr'
+# fzfpreview alias
+alias pfzf='ls -R | fzf --preview "pygmentize -f 256 -O style=zenburn -g {1}" --preview-window=right,70% | xargs fzf'
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
