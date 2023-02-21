@@ -61,8 +61,8 @@ alias ani2pstart='sudo anonsurf starti2p'
 alias ani2pstop='sudo anonsurf stopi2p'
 # Batcat alias
 alias bat='batcat'
-# cat alias
-alias cat='pygmentize -f 256 -O style=material -g'
+# pygmentize cat alias
+alias pcat='pygmentize -f 256 -O style=zsnburn -g'
 # ls alias
 alias ls='pwd && lsd -A --group-directories-first'
 # micro alias
